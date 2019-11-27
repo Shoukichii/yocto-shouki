@@ -1,0 +1,8 @@
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
+	branch = warrior
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = https://git.yoctoproject.org/git/meta-raspberrypi
+	branch = warrior
