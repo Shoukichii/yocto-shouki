@@ -1,0 +1,19 @@
+This README file contains information on the contents of the meta-shouki layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  Name: Flamegraph
+
+Table of Contents
+
+I. Adding the meta-shouki layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-shouki'
+
+II. Misc
+========
+--- replace with specific information about the meta-shouki layer ---
