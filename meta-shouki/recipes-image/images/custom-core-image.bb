@@ -5,19 +5,17 @@ DESCRIPTION = "A image containing linux usefull packages"
 UTIL_PACKAGES="\
     sudo \
     coreutils \
-    ebtables \
     bash \
     bash-completion \
     usbutils \
-    mpd \
     flamegraph \
     wpa-supplicant \
-    ssh-server-openssh \
+    dropbear \
 "
 
 IMAGE_INSTALL_append = " \
     packagegroup-core-boot \
     packagegroup-base \
-    packagegroup-net \
+    packagegroup-net-core \
     ${UTIL_PACKAGES} \
 "
