@@ -9,7 +9,7 @@ SRCREV = "1b1c6deede9c33c5134c920bdb7a44cc5528e9a7"
 
 RDEPENDS_flamegraph = "perl"
 
-FILES_${PN} += "flamegraph/"
+FILES_${PN} += "/opt/flamegraph/"
 
 do_install() {
     install -d  ${D}/opt/flamegraph
